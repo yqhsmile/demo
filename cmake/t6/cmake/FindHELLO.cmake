@@ -5,10 +5,10 @@
 # 惯例需要定义这3个变量，命名规则如上，以便与cmake预定义的cmake模块中的变量名统一
 
 # FIND_PATH和FIND_LIBARY的path部分，一定要是.h文件和lib文件所在的当前目录，否则找不到
-FIND_PATH(HELLO_INCLUDE_DIR hello.h /home/carl/cmake/t3/lib_hello)
+FIND_PATH(HELLO_INCLUDE_DIR hello.h /home/yqh/icode/demo/cmake/t3/lib_hello)
 MESSAGE(STATUS "HELLO_INCLUDE_DIR: " ${HELLO_INCLUDE_DIR})
 
-FIND_LIBRARY(HELLO_LIBRARY hello /home/carl/cmake/t3/build/lib)
+FIND_LIBRARY(HELLO_LIBRARY hello /home/yqh/icode/demo/cmake/t3/build/lib)
 MESSAGE(STATUS "HELLO_LIBRARY: " ${HELLO_LIBRARY})
 
 
